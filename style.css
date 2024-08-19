@@ -1,0 +1,50 @@
+header {
+    background-color: grey;
+    padding: 0 rem;
+    display: flex;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+footer {
+    padding: 1 rem;
+    display: flex;
+    background-color: gray;
+}
+
+.container {
+    margin: auto;
+    width: 250px;
+    padding: 25px;
+    border: 1px solid;
+    background-color: azure;
+    display: block;
+}
+
+#name,
+#password,
+#email,
+#number,
+#submit {
+    margin: auto;
+    padding: 16px;
+}
+
+#submit {
+    align-self: auto;
+}
+
+input {
+    margin: auto;
+    padding: 0;
+}
